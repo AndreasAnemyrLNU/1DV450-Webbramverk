@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   #users
   post '/users/create' => 'users#create', as: :users_create
 
+  post 'home/login' => 'home#login', as: :users_login
+
+  get 'apikeys/index' => 'api_keys#index', as: :api_keys_index
 
   #resources :users
 
