@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
-  resources :keys
-  get 'home/index'
+
+  get '/login' => 'home#login', as: :user_login
+  get '/register' => 'home#register', as: :user_register
+
+  #users
+  post '/users/create' => 'users#create', as: :users_create
+
+
+  #resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
