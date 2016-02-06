@@ -23,7 +23,7 @@ class HomeController < ApplicationController
         session[:userid] = user.id
         redirect_to api_keys_index_path
       else
-        @user = User.new
+        @user = user
         flash[:notice] = 'Failed login'
       end
     end

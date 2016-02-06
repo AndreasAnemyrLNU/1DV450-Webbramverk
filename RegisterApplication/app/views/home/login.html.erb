@@ -1,12 +1,10 @@
 <h1>View Login</h1>
 
-
 <% if flash[:notice] %>
     <p>
       <%= flash[:notice] %>
     </p>
 <% end %>
-
 
 <%= form_for @user, url: users_login_path do |f| %>
 

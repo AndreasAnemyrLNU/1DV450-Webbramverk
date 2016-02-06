@@ -1,26 +1,46 @@
-<h>View Register</h>
+<div class="container">
+  <div class="panel panel-warning">
+    <% if @user.errors.any? %>
+        <div class="panel-heading">
+          <h2>There was some errors in the form:</h2>
+          <div class="panel-body">
+            <p>
+              <% if @user.errors.any? %>
+                  <% @user.errors.each do |error,message| %>
+                      <% unless message.nil? %>
+                        <p><strong><%= error %></strong>: <%= message %></p>
+                    <% end %>
+                <% end %>
+            <% end %>
+            </p>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div> <!-- /container -->
 
-<% if @user.errors.any? %>
-    <div>
-      <h2>There was some errors in the form:</h2>
-      <%= @user.errors.inspect %>
-    </div>
-<% end %>
+<div class="container">
 
+  <%= form_for @user, url: users_create_path, :html => {:class => "form-sign in"}  do |f| %>
 
-<%= form_for @user, url: users_create_path  do |f| %>
+    <h2 class="form-signin-heading">Please sign in</h2>
 
-  <%= f.label :username %>
-  <%= f.text_field :username %>
+    <%= f.label :username, :html => {class: 'sr-only'} %>
+    <%= f.text_field :username, {class: 'form-control', placeholder: 'Your nickname...' } %>
 
-  <%= f.label :email %>
-  <%= f.email_field :email %>
+    <%= f.label :email, :html => {class: 'sr-only'} %>
+    <%= f.email_field :email, {class: 'form-control', placeholder: 'A valid e-mail....' } %>
 
-  <%= f.label :password %>
-  <%= f.text_field :password %>
+    <%= f.label :password, :html => {class: 'sr-only'} %>
+    <%= f.text_field :password, {class: 'form-control', placeholder: 'Your strong password' } %>
 
-  <%= f.label :password_confirmation %>
-  <%= f.text_field :password_confirmation %>
+    <%= f.label :password_confirmation, :html => {class: 'sr-only'} %>
+    <%= f.text_field :password_confirmation, {class: 'form-control', placeholder: 'Your strong password repeated' } %>
 
-  <%= submit_tag 'Register' %>
-<% end %>
+    <br>
+
+    <%= submit_tag 'Register', {class: 'btn btn-lg btn-primary btn-block'}  %>
+
+  <% end %>
+
+</div> <!-- /container -->
