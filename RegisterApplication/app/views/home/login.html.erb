@@ -1,18 +1,29 @@
-<h1>View Login</h1>
+<div class="container">
 
-<% if flash[:notice] %>
-    <p>
-      <%= flash[:notice] %>
-    </p>
-<% end %>
+  <% if flash[:notice] %>
+    <div class="panel panel-danger">
+      <div class="panel-heading">Important!</div>
+      <div class="panel-body">
+        <p><%= flash[:notice] %></p>
+      </div>
+    </div>
+  <% end %>
 
-<%= form_for @user, url: users_login_path do |f| %>
+  <%= form_for @user, url: users_login_path, :html => {:class => "form-sign in"}  do |f| %>
 
-    <%= f.label :email %>
-    <%= f.email_field :email %>
+      <h2 class="form-signin-heading">Login</h2>
+      <h6>When you need administrate your private api-keys from our services</h6>
 
-    <%= f.label :password %>
-    <%= f.text_field :password %>
+      <%= f.label :email, :html => {class: 'sr-only'} %>
+      <%= f.email_field :email, {class: 'form-control', placeholder: 'Your registred email....' } %>
 
-    <%= submit_tag 'Login' %>
-<% end %>
+      <%= f.label :password, :html => {class: 'sr-only'} %>
+      <%= f.text_field :password, {class: 'form-control', placeholder: 'Your registred password' } %>
+
+      <br>
+
+      <%= submit_tag 'Login', {class: 'btn btn-lg btn-primary btn-block'}  %>
+
+  <% end %>
+
+</div> <!-- /container -->

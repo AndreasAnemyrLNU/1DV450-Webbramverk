@@ -1,22 +1,22 @@
 <div class="container">
-  <div class="panel panel-warning">
+  <div class="panel panel-danger">
     <% if @user.errors.any? %>
-        <div class="panel-heading">
-          <h2>There was some errors in the form:</h2>
-          <div class="panel-body">
-            <p>
-              <% if @user.errors.any? %>
-                  <% @user.errors.each do |error,message| %>
-                      <% unless message.nil? %>
-                        <p><strong><%= error %></strong>: <%= message %></p>
-                    <% end %>
+      <div class="panel-heading">
+        <h2>There was some errors in the form:</h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          <% if @user.errors.any? %>
+              <% @user.errors.each do |error,message| %>
+                  <% unless message.nil? %>
+                    <p><strong><%= error %></strong>: <%= message %></p>
                 <% end %>
             <% end %>
-            </p>
-          </div>
-        </div>
+        <% end %>
+        </p>
+      </div>
+      </div>
     <% end %>
-  </div>
 </div> <!-- /container -->
 
 <div class="container">

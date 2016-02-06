@@ -23,8 +23,9 @@ class HomeController < ApplicationController
         session[:userid] = user.id
         redirect_to api_keys_index_path
       else
-        @user = user
-        flash[:notice] = 'Failed login'
+        @user = User.new
+        @user.email = params[:user][:email]
+        flash.now[:notice] = 'Warning! Credentials was wrong!'
       end
     end
   end
