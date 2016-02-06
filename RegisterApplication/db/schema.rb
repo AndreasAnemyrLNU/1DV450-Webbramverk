@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20160206215339) do
 
   create_table "api_keys", force: :cascade do |t|
     t.integer  "user_id"
+    t.string   "key",        null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
