@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f729d8d0-0242-41fd-a93f-d999e444a551" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/register.html.erb" afterPath="$PROJECT_DIR$/app/views/home/register.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="RegisterApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -815,7 +812,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454746990966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="register user possible now.&#10;It's time for authenticate with has_secure_password....">
+      <created>1454754029970</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1454754029970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -885,7 +888,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comiit from rubymin" />
-    <option name="LAST_COMMIT_MESSAGE" value="comiit from rubymin" />
+    <MESSAGE value="register user possible now.&#10;It's time for authenticate with has_secure_password...." />
+    <option name="LAST_COMMIT_MESSAGE" value="register user possible now.&#10;It's time for authenticate with has_secure_password...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
