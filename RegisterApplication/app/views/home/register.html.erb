@@ -23,7 +23,8 @@
 
   <%= form_for @user, url: users_create_path, :html => {:class => "form-sign in"}  do |f| %>
 
-    <h2 class="form-signin-heading">Please sign in</h2>
+    <h2 class="form-signin-heading">Sign up!</h2>
+    <h6>When you need acces to our great open api services</h6>
 
     <%= f.label :username, :html => {class: 'sr-only'} %>
     <%= f.text_field :username, {class: 'form-control', placeholder: 'Your nickname...' } %>
