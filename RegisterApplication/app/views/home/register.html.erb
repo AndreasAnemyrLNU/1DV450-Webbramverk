@@ -1,6 +1,24 @@
+<% if @user.errors.any? %>
+    <div>
+      <h2>There was some errors in the form:</h2>
+      <%= @user.errors.inspect %>
+    </div>
+<% end %>
+
+
 <%= form_for @user, url: users_create_path  do |f| %>
-  <%= f.label :password %>
+
+  <%= f.label :username %>
   <%= f.text_field :username %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+
+  <%= f.label :password %>
   <%= f.text_field :password %>
+
+  <%= f.label :password_confirmation %>
+  <%= f.text_field :password_confirmation %>
+
   <%= submit_tag 'Register' %>
 <% end %>
