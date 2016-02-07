@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get 'apikeys/index' => 'api_keys#index', as: :api_keys_index
 
+  resources :api_keys
+
   #resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.

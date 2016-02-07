@@ -1,3 +1,44 @@
-Lista med api nycklar.
+<div class="container">
 
-Hit kommer man när mna är inloggad
+  <% unless @api_keys.any? %>
+      <div class="panel panel-info">
+        <div class="panel-heading">Ooooops!</div>
+        <div class="panel-body">
+          <p>No keys Registred...</p>
+        </div>
+  <% end %>
+
+  <% @api_keys.each do |key| %>
+
+      <div class="container">
+        <h2>Registred Applications</h2>
+        <p>The table lists all of your api keys</p>
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th>Application</th>
+            <th>Your private key</th>
+            <th>Created</th>
+            <th>*</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td><%= key.app %></td>
+            <td><%= key.key %></td>
+            <td><%= key.created_at %></td>
+            <td><%= button_to "Delete", key, :method => "delete", data: {confirm: "Are you sure?"} %></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+  <% end %>
+
+</div>
+
+
+
+
+
+
