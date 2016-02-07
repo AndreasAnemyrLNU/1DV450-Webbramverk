@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 
-  # https://gist.github.com/thebucknerlife/10090014
+  #https://gist.github.com/thebucknerlife/10090014
   def current_user
     @current_user ||= User.find(session[:userid]) if session[:userid]
   end

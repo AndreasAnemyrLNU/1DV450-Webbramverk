@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e6871841-2677-4acf-a029-f1e75c7ebd82" name="Digital Ocean" url="http://162.243.104.84">
-        <fileTransfer host="162.243.104.84" port="22" rootFolder="/home/rails/rails_project" accessType="SFTP" password="dfc6dfecdfe0dfebdf9adffbdfcfdfeddffddffc" username="rails">
+      <webServer id="e6871841-2677-4acf-a029-f1e75c7ebd82" name="Digital Ocean" url="http://162.243.108.104">
+        <fileTransfer host="162.243.108.104" port="22" rootFolder="/home/rails/rails_project" accessType="SFTP" password="dfcfdfe9df9adfecdffedfc8df9cdfefdfc0dfcc" username="rails">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
