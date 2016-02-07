@@ -1,6 +1,6 @@
-<div class="container">
-  <div class="panel panel-danger">
-    <% if @user.errors.any? %>
+<% if @user.errors.any? %>
+  <div class="container">
+    <div class="panel panel-danger">
       <div class="panel-heading">
         <h2>There was some errors in the form:</h2>
       </div>
@@ -15,9 +15,10 @@
         <% end %>
         </p>
       </div>
-      </div>
-    <% end %>
-</div> <!-- /container -->
+    </div>
+  </div> <!-- /container -->
+<% end %>
+
 
 <div class="container">
 

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get '/login' => 'home#login', as: :user_login
+  get '/logout' => 'home#logout', as: :user_logout
   get '/register' => 'home#register', as: :user_register
 
   #users

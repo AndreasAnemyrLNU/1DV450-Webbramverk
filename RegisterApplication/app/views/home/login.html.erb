@@ -1,14 +1,5 @@
 <div class="container">
 
-  <% if flash[:notice] %>
-    <div class="panel panel-danger">
-      <div class="panel-heading">Important!</div>
-      <div class="panel-body">
-        <p><%= flash[:notice] %></p>
-      </div>
-    </div>
-  <% end %>
-
   <%= form_for @user, url: users_login_path, :html => {:class => "form-sign in"}  do |f| %>
 
       <h2 class="form-signin-heading">Login</h2>

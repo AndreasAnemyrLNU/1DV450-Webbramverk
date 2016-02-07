@@ -30,5 +30,12 @@ class HomeController < ApplicationController
     end
   end
 
+  def logout
+    session[:userid] = nil if session[:userid]
+    @user = User.new
+    #user has logged out. And can login form is rendered again....
+    render 'login'
+  end
+
 end
 

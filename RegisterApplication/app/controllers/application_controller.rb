@@ -11,8 +11,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
 
   def authorize
-    flash.now[:notice] = 'Permission denied. Do login'
-    redirect_to '/login' unless current_user
+    render :file => 'public/403.html', :status => :not_found, :layout => false unless current_user
   end
 
 

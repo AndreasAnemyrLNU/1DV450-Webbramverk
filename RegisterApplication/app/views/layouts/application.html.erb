@@ -35,6 +35,8 @@
             <li><%= link_to 'Sign Up', user_register_path %></li>
             <li role="separator" class="divider"></li>
             <li><%= link_to 'Keygenerator', '/apikeys/index' %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to 'Logga ut', user_logout_path %></li>
 
           </ul>
         </li>
@@ -44,6 +46,16 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="container">
+  <% if flash[:notice] %>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Important!</div>
+        <div class="panel-body">
+          <p><%= flash[:notice] %></p>
+        </div>
+      </div>
+  <% end %>
+</div>
 
 
 <%= yield %>
