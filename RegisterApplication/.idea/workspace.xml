@@ -1,12 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f729d8d0-0242-41fd-a93f-d999e444a551" name="Default" comment="yehaaa. Progress :)&#10;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api_keys/new.html.erb" />
+    <list default="true" id="f729d8d0-0242-41fd-a93f-d999e444a551" name="Default" comment="model forgot&#10;&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/Lato-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/Lato-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/Lato-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/Lato-RegularItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/SourceCodePro-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/fonts/SourceCodePro-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/brick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/brick_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/bullet_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/bullet_toggle_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/bullet_toggle_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/loadingAnimation.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/macFFBgHack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/page_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/page_white_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/page_white_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/plugin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/tag_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/tag_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/wrench_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/images/zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/navigation.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/search_index.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/searcher.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.byebug_history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/api_keys.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/api_keys.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api_keys_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/api_keys_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/api_key.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20160205152156_create_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20160206215339_create_api_keys.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/ApiKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/ApiKeysController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/ApiKeysHelper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/ApplicationController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/ApplicationHelper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/HomeController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/HomeHelper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/README_rdoc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/User.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/UsersController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/UsersHelper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/created.rid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/css/rdoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/darkfish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/navigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/search_index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/js/searcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/app/table_of_contents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/api_keys_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/api_keys.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/api_key_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api_keys/index.html.erb" afterPath="$PROJECT_DIR$/app/views/api_keys/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="RegisterApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,108 +123,7 @@
     <favorites_list name="RegisterApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api_keys_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api_keys_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.958334">
-              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="true" current-in-tab="false">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;e6871841-2677-4acf-a029-f1e75c7ebd82&gt;/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="30.918919">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="true" current-in-tab="true">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;e6871841-2677-4acf-a029-f1e75c7ebd82&gt;/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6893382">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/api_keys/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="GeneratorOptions">
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
@@ -201,6 +173,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="&lt;e6871841-2677-4acf-a029-f1e75c7ebd82&gt;/Gemfile" />
+        <option value="&lt;e6871841-2677-4acf-a029-f1e75c7ebd82&gt;/config/secrets.yml" />
       </list>
     </option>
   </component>
@@ -266,6 +239,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RegisterApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegisterApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegisterApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegisterApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegisterApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -720,7 +725,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454837739099</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="yehaaa. Progress :)&#10;&#10;">
+      <created>1454859428404</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1454859428404</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -758,13 +769,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22615804" sideWeight="0.49322918" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42220113" sideWeight="0.4055654" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42220113" sideWeight="0.4055654" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18975332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.49564713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33965844" sideWeight="0.47365305" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42220113" sideWeight="0.59443456" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42220113" sideWeight="0.59443456" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918888" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24097098" sideWeight="0.85385877" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24097098" sideWeight="0.85385877" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036564134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.47439352" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24097098" sideWeight="0.14614122" order="2" side_tool="true" content_ui="tabs" />
@@ -821,14 +832,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1158,38 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api_keys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api_keys/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1198,26 +1169,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.958334">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33562824">
+          <caret line="13" column="147" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0754039">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43889844">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65920824">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api_keys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20654045">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.15490533">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/api_keys/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26929983">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
