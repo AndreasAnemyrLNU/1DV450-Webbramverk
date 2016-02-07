@@ -37,12 +37,12 @@
             <li><%= link_to 'Keygenerator', '/apikeys/index' %></li>
             <li role="separator" class="divider"></li>
             <li><%= link_to 'Logga ut', user_logout_path %></li>
-
           </ul>
         </li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
+
   </div><!-- /.container-fluid -->
 </nav>
 
@@ -56,6 +56,22 @@
       </div>
   <% end %>
 </div>
+
+<div class="container">
+  <div class="well">
+    <p>
+      Hi!
+      <%= 'You\'re not logged in...' if current_user.nil? %>
+
+      <%= current_user.username unless current_user.nil? %>
+    </p>
+
+
+    <%= 'You are administrator' if current_user.admin? unless current_user.nil? %>
+    </p>
+  </div>
+</div>
+
 
 
 <%= yield %>

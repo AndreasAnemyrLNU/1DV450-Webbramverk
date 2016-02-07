@@ -8,7 +8,7 @@
         </div>
   <% end %>
 
-  <% @api_keys.each do |key| %>
+
 
       <div class="container">
         <h2>Registred Applications</h2>
@@ -19,21 +19,25 @@
             <th>Application</th>
             <th>Your private key</th>
             <th>Created</th>
-            <th>*</th>
+            <th></th>
           </tr>
           </thead>
           <tbody>
+
+          <% @api_keys.each do |key| %>
           <tr>
             <td><%= key.app %></td>
             <td><%= key.key %></td>
             <td><%= key.created_at %></td>
-            <td><%= button_to "Delete", key, :method => "delete", data: {confirm: 'Are you sure?'} %></td>
+            <td><%= button_to "Delete", key, :method => "delete" , data: {confirm: 'Are you sure?'} %></td>
           </tr>
+          <% end %>
+
           </tbody>
         </table>
       </div>
 
-  <% end %>
+
 
 </div>
 

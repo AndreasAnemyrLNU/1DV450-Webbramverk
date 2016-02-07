@@ -14,5 +14,4 @@ class ApplicationController < ActionController::Base
     render :file => 'public/403.html', :status => :not_found, :layout => false unless current_user
   end
 
-
 end
