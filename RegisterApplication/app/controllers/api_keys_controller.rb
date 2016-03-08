@@ -10,7 +10,11 @@ class ApiKeysController < ApplicationController
 
       if @api_key.save
         redirect_to api_keys_index_path
+      else
+        flash.now[:notice] = 'Fill name of app in field'
+        render 'new'
       end
+
     end
   end
 
